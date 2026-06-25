@@ -330,7 +330,7 @@ class MercyPaintsAppEngine {
         }
         const subject  = encodeURIComponent('Project Paint Quote — Mercy Paints');
         const body     = encodeURIComponent(this.compilePayload());
-        window.open(`mailto:mercypaints@gmail.com?subject=${subject}&body=${body}`, '_blank');
+        window.open(`https://mail.google.com/mail/?view=cm&to=mercypaints@gmail.com&su=${subject}&body=${body}`, '_blank');
     }
 }
 
