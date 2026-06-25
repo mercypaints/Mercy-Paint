@@ -4,63 +4,63 @@ class MercyPaintsAppEngine {
 
     constructor() {
         this.colorInventory = [
-            { name: "Off-White",       hex: "#f4f1ea" },
-            { name: "Warm White",      hex: "#f7f4eb" },
-            { name: "Pale Beige",      hex: "#e6ded1" },
-            { name: "Pale Mushroom",   hex: "#bcae99" },
-            { name: "Cream",           hex: "#fdf6e2" },
-            { name: "Bluff Bluff",     hex: "#e5cca3" },
-            { name: "Bamboo",          hex: "#dfca9f" },
-            { name: "Sunflower",       hex: "#ffda44" },
-            { name: "Golden Yellow",   hex: "#f4b223" },
-            { name: "Mustard",         hex: "#cca03a" },
-            { name: "Orange",          hex: "#ff7921" },
-            { name: "Sand",            hex: "#ded0b6" },
-            { name: "Rich Brown",      hex: "#624a3a" },
-            { name: "Chocolate",       hex: "#453225" },
-            { name: "Lilac Haze",      hex: "#b1a6b8" },
-            { name: "Rose Pink",       hex: "#f0b4c2" },
-            { name: "Rose",            hex: "#e090a2" },
-            { name: "Tile Red",        hex: "#b34e43" },
-            { name: "Red Oxide",       hex: "#8c322b" },
-            { name: "Laterite Red",    hex: "#9a433a" },
-            { name: "Post Office Red", hex: "#d61818" },
-            { name: "Pale Blue",       hex: "#cfdce8" },
-            { name: "Sky Blue",        hex: "#87bada" },
-            { name: "Light Blue",      hex: "#add8e6" },
-            { name: "Nursery Blue",    hex: "#5a9bc4" },
-            { name: "Pacific Blue",    hex: "#2b6a9c" },
-            { name: "Brilliant Blue",  hex: "#1c55a3" },
-            { name: "Midnight Blue",   hex: "#122342" },
-            { name: "Light Green",     hex: "#b4dca4" },
-            { name: "Leaf Green",      hex: "#5c9c52" },
-            { name: "Aquamarine",      hex: "#7fd3cc" },
-            { name: "Apple Green",     hex: "#8db643" },
-            { name: "Greengage",       hex: "#6d8c43" },
-            { name: "National Green",  hex: "#006633" },
-            { name: "Silver Grey",     hex: "#c0c0c0" },
-            { name: "Neutral",         hex: "#b0b4b8" },
-            { name: "Ice Grey",        hex: "#d3d9de" },
-            { name: "Dove Grey",       hex: "#a6afb8" },
-            { name: "Ash Grey",        hex: "#8a9199" },
-            { name: "Dark Grey",       hex: "#4a5056" },
-            { name: "Magnolia",        hex: "#f8f4e3" },
-            { name: "Peach",           hex: "#ffcba4" },
-            { name: "Sienna",          hex: "#a0522d" },
-            { name: "Cameo",           hex: "#dbbda6" },
-            { name: "Abuja Brown",     hex: "#5c4033" },
-            { name: "Lilac",           hex: "#dbb6ec" },
-            { name: "Purple",          hex: "#800080" },
-            { name: "Deep Purple",     hex: "#4b0082" },
-            { name: "Gossamer",        hex: "#ecece6" },
-            { name: "Oka Maize",       hex: "#f4d068" },
-            { name: "Delta Green",     hex: "#225a3c" },
-            { name: "Butter Cream",    hex: "#fdf5e6" },
-            { name: "Harmattan Grey",  hex: "#a8afb2" },
-            { name: "Tarqua Green",    hex: "#008b8b" },
-            { name: "Coral Red",       hex: "#ff4040" },
-            { name: "Casuarina",       hex: "#486b58" },
-            { name: "Concorde Grey",   hex: "#686d75" }
+            { name: "Off-White",       hex: "#f2ede4" },
+            { name: "Warm White",      hex: "#f5f0e8" },
+            { name: "Pale Beige",      hex: "#e8ddd0" },
+            { name: "Pale Mushroom",   hex: "#c4b49e" },
+            { name: "Cream",           hex: "#fef4d6" },
+            { name: "Bluff Bluff",     hex: "#e8cc96" },
+            { name: "Bamboo",          hex: "#d4b870" },
+            { name: "Sunflower",       hex: "#f5c842" },
+            { name: "Golden Yellow",   hex: "#e8a020" },
+            { name: "Mustard",         hex: "#c8902a" },
+            { name: "Orange",          hex: "#e86010" },
+            { name: "Sand",            hex: "#d8c8a8" },
+            { name: "Rich Brown",      hex: "#7a4830" },
+            { name: "Chocolate",       hex: "#3e2418" },
+            { name: "Lilac Haze",      hex: "#c8b8d0" },
+            { name: "Rose Pink",       hex: "#f0a0b8" },
+            { name: "Rose",            hex: "#d4607a" },
+            { name: "Tile Red",        hex: "#a83c30" },
+            { name: "Red Oxide",       hex: "#782018" },
+            { name: "Laterite Red",    hex: "#903428" },
+            { name: "Post Office Red", hex: "#cc1010" },
+            { name: "Pale Blue",       hex: "#c8dce8" },
+            { name: "Sky Blue",        hex: "#78b0d8" },
+            { name: "Light Blue",      hex: "#90c8e0" },
+            { name: "Nursery Blue",    hex: "#4888b8" },
+            { name: "Pacific Blue",    hex: "#1e5888" },
+            { name: "Brilliant Blue",  hex: "#1040a0" },
+            { name: "Midnight Blue",   hex: "#0a1a38" },
+            { name: "Light Green",     hex: "#a8d890" },
+            { name: "Leaf Green",      hex: "#488040" },
+            { name: "Aquamarine",      hex: "#58c8b8" },
+            { name: "Apple Green",     hex: "#78a830" },
+            { name: "Greengage",       hex: "#587830" },
+            { name: "National Green",  hex: "#006030" },
+            { name: "Silver Grey",     hex: "#c8c8c8" },
+            { name: "Neutral",         hex: "#a8adb0" },
+            { name: "Ice Grey",        hex: "#d0d8e0" },
+            { name: "Dove Grey",       hex: "#98a4b0" },
+            { name: "Ash Grey",        hex: "#808890" },
+            { name: "Dark Grey",       hex: "#404850" },
+            { name: "Magnolia",        hex: "#f8f0e0" },
+            { name: "Peach",           hex: "#f8c090" },
+            { name: "Sienna",          hex: "#983820" },
+            { name: "Cameo",           hex: "#d8a888" },
+            { name: "Abuja Brown",     hex: "#503020" },
+            { name: "Lilac",           hex: "#c898e0" },
+            { name: "Purple",          hex: "#780878" },
+            { name: "Deep Purple",     hex: "#400060" },
+            { name: "Gossamer",        hex: "#e8e8e0" },
+            { name: "Oka Maize",       hex: "#f0c840" },
+            { name: "Delta Green",     hex: "#185030" },
+            { name: "Butter Cream",    hex: "#fef8e0" },
+            { name: "Harmattan Grey",  hex: "#b0b8b8" },
+            { name: "Tarqua Green",    hex: "#008878" },
+            { name: "Coral Red",       hex: "#e83030" },
+            { name: "Casuarina",       hex: "#385848" },
+            { name: "Concorde Grey",   hex: "#606870" }
         ];
 
         this.pricingCatalog = {
@@ -168,7 +168,6 @@ class MercyPaintsAppEngine {
         const productKey   = document.getElementById('form-paint-product').value;
         const surfaceType  = document.getElementById('form-surface-profile').value;
         const areaInput    = document.getElementById('form-surface-area');
-        const coats        = parseInt(document.getElementById('form-coat-count').value);
         const openings     = parseInt(document.getElementById('form-wastage-guard').value);
 
         const rawArea = parseFloat(areaInput.value);
@@ -185,7 +184,7 @@ class MercyPaintsAppEngine {
 
         // Apply porous surface multiplier
         const porousMultiplier = (surfaceType === 'porous') ? 1.15 : 1.0;
-        const totalLitres  = (netArea / product.coverage) * coats * porousMultiplier;
+        const totalLitres  = (netArea / product.coverage) * porousMultiplier;
 
         // Container optimisation: use 4L gallons if volume ≤ 8L and product supports 4L
         let containerSize, containerRate, containerLabel;
@@ -325,15 +324,15 @@ class MercyPaintsAppEngine {
 
     /* ── EMAIL DISPATCH ───────────────────────────────── */
     dispatchToEmail() {
-    if (this.projectRoomsBasket.length === 0) {
-        alert('Please add at least one room or wall section before sending.');
-        return;
+        if (this.projectRoomsBasket.length === 0) {
+            alert('Please add at least one room or wall section before sending.');
+            return;
+        }
+        const subject  = encodeURIComponent('Project Paint Quote — Mercy Paints');
+        const body     = encodeURIComponent(this.compilePayload());
+        window.open(`mailto:mercypaints@gmail.com?subject=${subject}&body=${body}`, '_blank');
     }
-    const subject = encodeURIComponent('Project Paint Quote — Mercy Paints');
-    const body    = encodeURIComponent(this.compilePayload());
-    window.open(`https://mail.google.com/mail/?view=cm&to=mercypaints@gmail.com&su=${subject}&body=${body}`, '_blank');
 }
-    }
 
 /* ── BOOT ─────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
